@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+	<menu id="root-menu" label="Openbox 3">
+		<separator label="Applications"/>
+		<item label="Rxvt Unicode">
+			<action name="Execute">
+				<command>
+					urxvt
+				</command>
+			</action>
+		</item>
+		<menu id="network-menu" label="Network">
+			<item label="Firefox 3">
+				<action name="Execute">
+					<command>
+						firefox
+					</command>
+				</action>
+			</item>
+			<item label="Pidgin">
+				<action name="Execute">
+					<command>
+						pidgin
+					</command>
+				</action>
+			</item>
+		</menu>
+		<separator label="System"/>
+		<item label="Exit">
+			<action name="Exit">
+				<prompt>
+					yes
+				</prompt>
+			</action>
+		</item>
+	</menu>
+</openbox_menu>

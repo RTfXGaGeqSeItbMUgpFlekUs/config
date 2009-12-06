@@ -1,0 +1,9 @@
+style "user-font"
+{
+font_name = "Myriad Pro 10"
+}
+widget_class "*" style "user-font"
+gtk-font-name = "Myriad Pro 10"
+
+#gtk-icon-theme-name = "elementary_2.2"
+gtk-icon-theme-name = "Tango"

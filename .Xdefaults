@@ -1,0 +1,83 @@
+*font: -*-clean-medium-r-*-*-12-*-*-*-*-*-*-*
+*boldFont: -*-clean-medium-r-*-*-12-*-*-*-*-*-*-*
+!URxvt*font: xft:Inconsolata-10
+
+
+URxvt*scrollBar: false
+URxvt*internalBorder: 4
+
+URxvt*perl-lib: /usr/lib/urxvt/perl
+URxvt*perl-ext-common: default,option-popup,matcher
+URxvt*urlLauncher: /usr/bin/firefox
+URxvt*matcher.button: 1
+
+!URxvt*background: #070707
+!URxvt*foreground: #ffffff
+
+!	urxvt*color0:    #6c6c6c
+!	urxvt*color1:    #e9897c
+!	urxvt*color2:    #b6e77d
+!	urxvt*color3:    #ecebbe
+!	urxvt*color4:    #a9cdeb
+!	urxvt*color5:    #ea96eb
+!	urxvt*color6:    #c9caec
+!	urxvt*color7:    #f2f2f2
+
+!	urxvt*color8:    #747474
+!	urxvt*color9:    #f99286
+!	urxvt*color10:    #c3f786
+!	urxvt*color11:    #fcfbcc
+!	urxvt*color12:    #b6defb
+!	urxvt*color13:    #fba1fb
+!	urxvt*color14:    #d7d9fc
+!	urxvt*color15:    #e2e2e2
+
+!Lich Low Contrast
+!*background: #222222
+!*foreground: #eeeeee
+!*color0: #222222
+!*color1: #8E5C4E
+!*color2: #6C7E55
+!*color3: #B89F63
+!*color4: #7FB8D8
+!*color5: #956D9D
+!*color6: #4c8ea1
+!*color7: #808080
+!*color8: #454545
+!*color9: #CC896D
+!*color10: #C4DF90
+!*color11: #FFE080
+!*color12: #B8DDEA
+!*color13: #C18FCB
+!*color14: #6bc1d0
+!*color15: #eeeeee
+
+*foreground: #DDEEDD
+*background: #1C1C1C
+
+!black
+*color0: #1C1C1C
+*color8: #4d4d4d
+!red
+*color1: #D81860
+*color9: #F00060
+!green
+*color2: #B7CE42
+*color10: #BDE077
+!yellow
+*color3: #FEA63C
+*color11: #FFE863
+!blue
+*color4: #66AABB
+*color12: #AACCBB
+!magenta
+*color5: #B7416E
+*color13: #BB4466
+!cyan
+*color6: #5E7175
+*color14: #A3BABF
+!white
+*color7: #DDEEDD
+*color15: #6C887A
+
+Xcursor*theme: neutral
