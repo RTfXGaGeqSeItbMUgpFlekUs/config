@@ -131,6 +131,10 @@ precmd() {
 		GITBRANCH=""
 	fi
 
+	if [ `pwd` = $HOME ]; then
+		GITBRANCH=""
+	fi
+
 
 	# The following 9 lines of code comes directly from Phil!'s ZSH prompt
 	# http://aperiodic.net/phil/prompt
