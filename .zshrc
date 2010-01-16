@@ -126,15 +126,10 @@ precmd() {
 	}
 
 	if [ -n "$(git_ps1)" ]; then
-		GITBRANCH="${PR_BRIGHT_GREEN}G:$(git_ps1) ${PR_RESET}"
+		#GITBRANCH="${PR_BRIGHT_GREEN}G:$(git_ps1) ${PR_RESET}"
 	else
-		GITBRANCH=""
+		#GITBRANCH=""
 	fi
-
-	if [ `pwd` = $HOME ]; then
-		GITBRANCH=""
-	fi
-
 
 	# The following 9 lines of code comes directly from Phil!'s ZSH prompt
 	# http://aperiodic.net/phil/prompt
