@@ -217,27 +217,22 @@ setprompt
 ###
 ### Environment
 ###
+export EDITOR=vi
+export EXINIT='set autoindent'
+export PAGER=more
 export TZ="America/New_York"
 export LANG="en_US.UTF-8"
 export PATH="$HOME/Bin:/usr/bin:/usr/sbin:/bin:/sbin:$PATH"
-if which vim &> /dev/null; then
-	export EDITOR="vim"
-else
-	export EDITOR="vi"
-fi
-if which most &> /dev/null; then
-	export PAGER="most"
-else
-	export PAGER="less"
-fi
-export BROWSER="firefox"
 export GREP_COLOR="1;33"
+
+PATH=$HOME/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R7/bin:/usr/X11R6/bin:/usr/pkg/bin
+PATH=${PATH}:/usr/pkg/sbin:/usr/games:/usr/local/bin:/usr/local/sbin
+export PATH
 
 # Aliases
 alias ls='ls -h'
 alias ll='ls -l'
 alias la='ls -a'
-alias vi='vim'
 
 if [ `ls --version |& head -n1 | cut -c 5-7` = "GNU" ]
 then

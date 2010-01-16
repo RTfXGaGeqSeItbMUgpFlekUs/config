@@ -1,7 +1,5 @@
-!*font: -*-clean-medium-r-*-*-12-*-*-*-*-*-*-*
-!*boldFont: -*-clean-medium-r-*-*-12-*-*-*-*-*-*-*
-URxvt*font: xft:Fixed-10
-URxvt*boldFont: xft:Fixed-10:bold
+*font: -*-fixed-medium-r-*-*-12-*-*-*-*-*-*-*
+*boldFont: -*-fixed-medium-r-*-*-12-*-*-*-*-*-*-*
 
 
 URxvt*scrollBar: false

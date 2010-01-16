@@ -1,9 +1,9 @@
 style "user-font"
 {
-font_name = "Myriad Pro 10"
+font_name = "Deja Vu 8"
 }
 widget_class "*" style "user-font"
-gtk-font-name = "Myriad Pro 10"
+gtk-font-name = "Deja Vu 8"
 
 #gtk-icon-theme-name = "elementary_2.2"
 gtk-icon-theme-name = "Tango"
